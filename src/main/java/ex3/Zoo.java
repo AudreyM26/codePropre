@@ -6,16 +6,18 @@ package ex3;
 public class Zoo {
 
 	private String nom;
-	private SavaneAfricaine savaneAfricaine;
-	private ZoneCarnivore zoneCarnivore;
-	private FermeReptile fermeReptile;
-	private Aquarium aquarium;
+	private SavaneAfricaine savaneAfricaine = new SavaneAfricaine();
+	private ZoneCarnivore zoneCarnivore = new ZoneCarnivore();
+	private FermeReptile fermeReptile = new FermeReptile();
+	private Aquarium aquarium = new Aquarium();
 	
 	public Zoo(String nom){
 		this.nom = nom;
 	}
 	
+	
 	public void addAnimal(String nomAnimal, String typeAnimal, String comportement){
+		
 		if (typeAnimal.equals("MAMMIFERE") && comportement.equals("CARNIVORE")){
 			zoneCarnivore.addAnimal(typeAnimal, nomAnimal, comportement);
 		}
