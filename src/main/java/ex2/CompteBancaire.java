@@ -1,6 +1,6 @@
 package ex2;
 
-/** ReprÃ©sente un compte bancaire de type compte courante (type=CC)
+/** Représente un compte bancaire de type compte courante (type=CC)
  * @author DIGINAMIC
  */
 public class CompteBancaire {
@@ -8,7 +8,7 @@ public class CompteBancaire {
 	/** solde : solde du compte */
 	private double solde;
 	
-	/** decouvert : un dÃ©couvert est autorisÃ© seulement pour les comptes courants */
+	/** decouvert : un découvert est autorisé seulement pour les comptes courants */
 	private double decouvert;
 	
 	
@@ -47,7 +47,7 @@ public class CompteBancaire {
 	
 	/** Retourne le type de compte CC */
 	public String getType() {
-		return "CC";
+		return this.type;
 	}
 	
 	/** Getter for solde

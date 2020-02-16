@@ -1,12 +1,12 @@
 package ex1;
 
 /**
- * Classe qui rÃ©alise des opÃ©rations arythmÃ©tiques
+ * Classe qui réalise des opérations arythmétiques
  * @author DIGINAMIC
  */
 public class Calcul {
 
-	/** MÃ©thode qui retourne l'addition des paramÃ¨tres a et b 
+	/** Méthode qui retourne l'addition des paramètres a et b 
 	 * 
 	 * @param a
 	 * @param b
@@ -16,7 +16,7 @@ public class Calcul {
 		return a+b;
 	}
 	
-	/** MÃ©thode qui retourne la soustraction des paramÃ¨tres a et b
+	/** Méthode qui retourne la soustraction des paramètres a et b
 	 * 
 	 * @param a
 	 * @param b

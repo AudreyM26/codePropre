@@ -1,26 +1,26 @@
 package ex2;
 
-/** ReprÃ©sente un compte bancaire de type livret A (type=LA)
+/** Représente un compte bancaire de type livret A (type=LA)
  * @author DIGINAMIC
  */
 
 public class LivretA extends CompteBancaire {
 
-	/** tauxRemuneration : taux de rÃ©munÃ©ration dans le cas d'un livret A */
+	/** tauxRemuneration : taux de rémunération dans le cas d'un livret A */
 	private double tauxRemuneration;
 	
-	/** Ce constructeur pour crÃ©er un compte de type Livret A
+	/** Ce constructeur pour créer un compte de type Livret A
 	 * @param type = LA
-	 * @param solde reprÃ©sente le solde du compte
-	 * @param decouvert  reprÃ©sente le dÃ©couvert autorisÃ©
-	 * @param tauxRemuneration  reprÃ©sente le taux de rÃ©munÃ©ration du livret A
+	 * @param solde représente le solde du compte
+	 * @param decouvert  représente le découvert autorisé
+	 * @param tauxRemuneration  représente le taux de rémunération du livret A
 	 */
 	public LivretA(String type, double solde, double tauxRemuneration) {
 		super(type, solde, 0);
 		this.tauxRemuneration = tauxRemuneration;
 	}
 
-	/** calculer et appliquer le nouveau solde avec taux de remunÃ©ration */
+	/** calculer et appliquer le nouveau solde avec taux de remunération */
 	public void appliquerRemuAnnuelle(){
 		double RemuAnnuelle = this.getSolde()+this.getSolde()*this.tauxRemuneration/100;
 		this.setSolde(RemuAnnuelle);

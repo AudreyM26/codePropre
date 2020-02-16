@@ -1,6 +1,6 @@
 package ex3;
 
-/** ReprÃ©sente une ferme de reptile
+/** Représente une ferme de reptile
  * @author DIGINAMIC
  */
 public class FermeReptile extends Zone {

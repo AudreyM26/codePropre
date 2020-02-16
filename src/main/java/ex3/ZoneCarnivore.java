@@ -1,7 +1,5 @@
 package ex3;
 
-import java.util.List;
-
 public class ZoneCarnivore extends Zone {
 
 	@Override

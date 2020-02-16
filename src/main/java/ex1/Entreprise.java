@@ -1,8 +1,7 @@
 package ex1;
 
-
  /**
-  * classe representant les donnÃ©es d une entreprise
+  * classe representant les données d une entreprise
   * @author Audrey
   */
 
